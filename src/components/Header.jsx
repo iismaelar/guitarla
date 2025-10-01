@@ -32,6 +32,7 @@ function Header(){
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    {cart.map(guitar => (                                    
                                     <tr>
                                         <td>
                                             <img className="img-fluid" src="./public/img/guitarra_02.jpg" alt="imagen guitarra" />
@@ -64,6 +65,7 @@ function Header(){
                                             </button>
                                         </td>
                                     </tr>
+                                    ))}
                                 </tbody>
                             </table>
 
